@@ -96,8 +96,49 @@ header {
   flex: 1;
   background-color: var(--Dark-Desaturated-Blue);
   text-align: center;
+  justify-content: center;
   padding: 20px;
   margin: 20px;
+}
+
+.dash-feed span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  text-align: center;
+  font-size: 10px;
+}
+
+.dash-feed span img {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.dash-feed div h3 {
+  font-size: 32px;
+  margin-bottom: 2px;
+}
+
+.dash-feed div p {
+  color: var(--Dark-Grayish-Blue);
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.dash-feed > b {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  color: var(--Lime-Green);
+}
+
+.dash-feed .feature {
+  color: var(--Bright-Red);
 }
 
 /* --------------BOTTOM------------------- */
@@ -117,6 +158,63 @@ header {
   padding: 20px;
   margin: 20px;
   background-color: var(--Dark-Desaturated-Blue);
+  display: flex;
+  flex-direction: column;
+}
+
+.socials div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials div:first-child {
+  margin-bottom: 30px;
+}
+
+.socials > div:nth-child(1) {
+  font-size: 12px;
+  color: var(--Desaturated-Blue);
+}
+
+.socials > div:nth-child(2) {
+  font-size: 10px;
+  /* color: var(--Desaturated-Blue); */
+}
+
+.socials .percentage {
+  display: flex;
+  align-items: center;
+}
+
+.socials .percent1 {
+  color: var(--Lime-Green);
+}
+.socials .percent2 {
+  color: var(--Bright-Red);
+}
+
+.socials .percent3 {
+  color: var(--Lime-Green);
+}
+
+.socials .percent4 {
+  color: var(--Lime-Green);
+}
+
+.socials .percent5 {
+  color: var(--Lime-Green);
+}
+
+.socials .percent6 {
+  color: var(--Lime-Green);
+}
+
+.socials .percent7 {
+  color: var(--Bright-Red);
+}
+
+.socials .percent8 {
+  color: var(--Bright-Red);
 }
 
 .attribution {
